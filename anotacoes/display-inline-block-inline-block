@@ -1,0 +1,17 @@
+inline:
+ +mesma linha
+ -width height
+ *comport. palavra
+ *tamanho conteúdo
+
+block:
+ -mesma linha
+ +width heitgh
+ *width 100% do pai
+ *height conteúdo
+
+inline-block:
+ +mesma linha
+ +width height
+ *comport. palavra
+ *tamanho conteúdo
