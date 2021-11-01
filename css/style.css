@@ -52,3 +52,6 @@ a::before {
     color: #dbd7d7;
     transform: scale(1.08);
 }
+#title {
+    color: #0000CC;
+}
