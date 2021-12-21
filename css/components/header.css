@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A4042;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+.header > h1 {
+    color: white;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+}

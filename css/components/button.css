@@ -9,7 +9,7 @@
     margin: 0px;
     transition: transform 100ms linear;
     font-size: 20px;
-    font-family: 'Fira Code', sans-serif;
+    font-family:inherit;
     text-decoration: none;
     color: #FFF;
 }

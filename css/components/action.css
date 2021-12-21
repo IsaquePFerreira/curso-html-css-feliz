@@ -1,26 +1,4 @@
-body {
-    background-color: #076b25;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3A4042;
-    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-}
-
-h1 {
-    color: white;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
-}
-
-nav {
-    text-align: right;
-}
-
-a {
+.action {
     display: inline-flex;
     align-items: center;
     color: white;
@@ -32,11 +10,11 @@ a {
     margin-right: 30px;
 }
 
-a:hover {
+.action:hover {
     background-color: #076b25;
 }
 
-a::before {
+.action::before {
     content: "";
     background-color: #098a30;
     width: 10px;
