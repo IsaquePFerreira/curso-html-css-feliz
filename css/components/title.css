@@ -1,0 +1,28 @@
+div.background-title {
+    position: relative;
+    top: 10%;
+    left: 50px;
+    width: 527px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3A4042;
+    text-align: center;
+    margin-top: 116px;
+    box-shadow: 2px 2px 4px 0px #00000080;
+}
+
+#title {
+    color: #0f9437;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #00000080;
+}
+
+#caption {
+    color: #FFF;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px #00000080;
+}
