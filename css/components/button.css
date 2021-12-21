@@ -8,6 +8,10 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin: 0px;
     transition: transform 100ms linear;
+    font-size: 20px;
+    font-family: 'Fira Code', sans-serif;
+    text-decoration: none;
+    color: #FFF;
 }
 
 .button:hover {
