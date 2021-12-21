@@ -43,29 +43,3 @@ a::before {
     height: 10px;
     margin: 10px;
 }
-
-.button {
-    text-align: center;
-    display: inline-block;
-    background-color: #098a30;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin: 0px;
-    transition: transform 100ms linear;
-}
-
-.button:hover {
-    background-color: #0f9437;
-    color: #dbd7d7;
-    transform: scale(1.08);
-}
-
-.btn-title {
-    position: relative;
-    top: 220px;
-    left: -200px;
-    margin-top: 35px;
-    margin-right: 112px;
-}
