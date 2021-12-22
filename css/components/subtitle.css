@@ -1,6 +1,7 @@
 .subtitle {
     color: #FFF;
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Fira Code', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.7em;
     font-weight: normal;
     text-shadow: 2px 2px 4px #00000080;
 }
