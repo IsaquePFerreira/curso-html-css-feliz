@@ -1,4 +1,4 @@
-.header {
+.page-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,7 +7,7 @@
     padding: 10px 20px;
 }
 
-.header > h1 {
+.page-header > h1 {
     color: #FFF;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }

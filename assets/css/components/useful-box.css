@@ -1,4 +1,4 @@
-.box {
+.useful-box {
     display: inline-block;
     background-color: #3A4042;
     padding: 40px 40px;
@@ -6,6 +6,6 @@
     box-shadow: 2px 2px 4px 0px #00000080;
 }
 
-.box .title {
+.useful-box .title {
     margin-bottom: 20px;
 }

@@ -1,11 +1,11 @@
-.section {
+.page-section {
     padding-top: 50px;
     padding-bottom: 100px;
     height: 730px;
     border-bottom: 5px solid #055505;
-    background-color: #098a30;
+    background-color: #3A4042;
 }
 
-.section .main-title {
+.page-section .main-title {
     margin-bottom: 65px;
 }

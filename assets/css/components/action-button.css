@@ -1,4 +1,4 @@
-.button {
+.action-button {
     text-align: center;
     display: inline-block;
     background-color: #098a30;
@@ -14,7 +14,7 @@
     color: #FFF;
 }
 
-.button:hover {
+.action-button:hover {
     background-color: #0f9437;
     color: #dbd7d7;
     transform: scale(1.08);

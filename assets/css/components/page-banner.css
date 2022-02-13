@@ -1,5 +1,5 @@
-.banner {
-    background-image: url('../../assets/img/imagem-banner.jpg');
+.page-banner {
+    background-image: url('../../img/imagem-banner.jpg');
     height: 620px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -9,17 +9,17 @@
     padding-left: 90px;
 }
 
-.banner .wrapper {
+.page-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 640px;
 }
 
-.banner .box {
+.page-banner .useful-box {
     margin-bottom: 38px;
 }
 
-.banner .navigation {
+.page-banner .navigation {
     display: flex;
     justify-content: space-around;
 }
