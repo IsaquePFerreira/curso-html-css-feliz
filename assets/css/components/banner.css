@@ -1,9 +1,9 @@
 .banner {
     background-image: url('../../assets/img/imagem-banner.jpg');
-    height: 754px;
+    height: 620px;
     background-repeat: no-repeat;
     background-size: 100%;
-    border-bottom: 5px solid #000;
+    border-bottom: 2px solid #000;
     box-sizing: border-box;
     padding-top: 105px;
     padding-left: 90px;
