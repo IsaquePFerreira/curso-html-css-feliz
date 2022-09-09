@@ -1,3 +1,9 @@
 .project-card {
-
+	background-color: green;
+	height: 300px;
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 5px 5px 0 black;
 }
