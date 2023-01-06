@@ -1,5 +1,6 @@
-.paragraph-format {
-    font-size: 1.2em;
+.main-description {
+    font-size: 25px;
+    line-height: 1.5;
     color: #FFFFFF;
     text-align: justify;
     padding: 20px;
