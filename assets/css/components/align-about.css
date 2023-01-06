@@ -1,9 +1,0 @@
-.align-about {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.align-about img {
-    box-shadow: 3px 3px 3px #00000080;
-}
