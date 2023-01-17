@@ -1,0 +1,9 @@
+.main-footer {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.main-footer .copy {
+  color:#FFF;
+}
