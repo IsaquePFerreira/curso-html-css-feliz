@@ -25,6 +25,9 @@
         <link rel="stylesheet" href="./assets/css/components/button-arrow.css">
         <link rel="stylesheet" href="./assets/css/components/node-card.css">
         <link rel="stylesheet" href="./assets/css/components/main-carousel.css">
+        <link rel="stylesheet" href="./assets/css/components/main-footer.css">
+        <link rel="stylesheet" href="./assets/css/components/main-label.css">
+        <link rel="stylesheet" href="./assets/css/components/main-input.css">
     </head>
     <body>
         <header class="page-header">
@@ -95,7 +98,7 @@
                 </figure>
             </div>
         </section>
-        <section class="page-section -bdBlack">
+        <section class="page-section -secthree -bdBlack">
             <h2 class="main-title -second">Sobre</h2>
             <section class="main-carousel">
               <button class="button-arrow -left"><span class="content">Avançar</span></button>
@@ -134,6 +137,24 @@
     Como profissional, esforço-me ao máximo para cumprir a tarefa que me foi dada, busco trabalhar em harmonia como meus colegas, também gosto de aprender coisas novas e acredito que a melhora é um processo contínuo.
             </p>
         </section>
+        <section class="page-section">
+          <h2 class="main-title -second">Contatos</h2>
+          <form method="code.php" action="POST">
+            <label class="main-label" for="name">Nome:</label>
+            <input class="main-input" type="text" id="name" name="name" required>
+            <label class="main-label" for="email">Email:</label>
+            <input class="main-input" type="email" id="email" name="email" required>
+            <label class="main-label" for="message">Mensagem:</label>
+            <textarea class="main-input" name="message" id="message"></textarea>
+            <input class="input" type="submit" value="Enviar">
+          </form>
+        </section>
+        <footer class="main-footer">
+          <img src="" alt="icone" style="color:white;">
+          <img src="" alt="icone" style="color:white;">
+          <img src="" alt="icone" style="color:white;">
+          <p class="copy">&copy; Todos os direitos reservados</p>
+        </footer>
         <script src="./assets/js/components/main-carousel.js"></script>
     </body>
 </html>
