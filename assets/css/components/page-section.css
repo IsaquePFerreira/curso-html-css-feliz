@@ -13,6 +13,9 @@
     background-color: #ACADBC;
 }
 
+.page-section.-secthree {
+  background-color: #063815;
+}
 .page-section.-bdBlack {
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
 }
