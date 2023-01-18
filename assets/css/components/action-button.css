@@ -19,3 +19,7 @@
     color: #dbd7d7;
     transform: scale(1.08);
 }
+
+.action-button.-full {
+  width: 100%;
+}
