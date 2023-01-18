@@ -12,6 +12,7 @@
     font-family:inherit;
     text-decoration: none;
     color: #FFF;
+    cursor: pointer;
 }
 
 .action-button:hover {
@@ -23,3 +24,8 @@
 .action-button.-full {
   width: 100%;
 }
+
+.action-button.-full:hover {
+  transform: scale(1.01);
+}
+
