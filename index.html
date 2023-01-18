@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="./assets/css/components/main-footer.css">
         <link rel="stylesheet" href="./assets/css/components/main-label.css">
         <link rel="stylesheet" href="./assets/css/components/main-input.css">
+        <link rel="stylesheet" href="./assets/css/components/main-form.css">
     </head>
     <body>
         <header class="page-header">
@@ -137,18 +138,16 @@
     Como profissional, esforço-me ao máximo para cumprir a tarefa que me foi dada, busco trabalhar em harmonia como meus colegas, também gosto de aprender coisas novas e acredito que a melhora é um processo contínuo.
             </p>
         </section>
-        <section class="page-section">
-          <h2 class="main-title -second">Contatos</h2>
-          <form method="code.php" action="POST">
-            <label class="main-label" for="name">Nome:</label>
-            <input class="main-input" type="text" id="name" name="name" required>
-            <label class="main-label" for="email">Email:</label>
-            <input class="main-input" type="email" id="email" name="email" required>
-            <label class="main-label" for="message">Mensagem:</label>
-            <textarea class="main-input -textarea" name="message" id="message"></textarea>
-            <button class="action-button -full" type="submit">Enviar</button>
-          </form>
-        </section>
+        <form method="code.php" action="POST" class="main-form">
+          <label class="main-label" for="name">Nome:</label>
+          <input class="main-input" type="text" id="name" name="name" required>
+          <label class="main-label" for="email">Email:</label>
+          <input class="main-input" type="email" id="email" name="email" required>
+          <label class="main-label" for="message">Mensagem:</label>
+          <textarea class="main-input -textarea" name="message" id="message">
+          </textarea>
+          <button class="action-button -full" type="submit">Enviar</button>
+        </form>
         <footer class="main-footer">
           <img src="" alt="icone" style="color:white;">
           <img src="" alt="icone" style="color:white;">
